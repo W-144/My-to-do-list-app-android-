@@ -1,0 +1,74 @@
+# Android Studio
+*.iml
+.gradle
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/deploymentTargetDropDown.xml
+.idea/render.experimental
+*.jks
+*.keystore
+
+# Build
+/build/
+/captures/
+.externalNativeBuild
+.cxx
+
+# Private & Local (忽略包含敏感信息的配置文件)
+local.properties
+signing.properties
+keystore.properties
+release.properties
+
+# Signing & Keys (Private)
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器和IDE
+.classpath
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.VSCodeCounter/
+
+# Logcat & 日志
+*.log
+logcat.txt
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+
+# 生成的文件
+gen/
+out/
+.kspCaches/
+
+# Kotlin
+.kotlin/
+
+# App-specific private files (自己添加的私密文件)
+# /app/src/main/res/values/secrets.xml
+# /secrets/
+# /config/private/
